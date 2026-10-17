@@ -266,4 +266,3 @@ this bench, and the safe route is what this document optimizes for.
 
 - what the bench is for, ultimately → [01-concept.md](01-concept.md), [02-cube-from-wafer.md](02-cube-from-wafer.md)
 - how errors are kept from accumulating across copies → [03-generational-stability.md](03-generational-stability.md)
-- the timeline these stages live on → [05-roadmap.md](05-roadmap.md)

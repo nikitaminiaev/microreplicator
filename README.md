@@ -34,7 +34,6 @@ requirements behind the picture are in [docs/01-concept.md](docs/01-concept.md) 
 | [docs/02-cube-from-wafer.md](docs/02-cube-from-wafer.md) | How a cube is made: 2D net on a wafer, through-cut, self-folding, solder seams, generation 1 vs 2 |
 | [docs/03-generational-stability.md](docs/03-generational-stability.md) | Why copies do not degrade: optical demagnification, bad-mirror maps, closed-loop overlay, and the limits that remain |
 | [docs/04-diy-lithography-path.md](docs/04-diy-lithography-path.md) | The DIY lithography rig and the staged path from a bare DMD projector to PMOS and MEMS |
-| [docs/05-roadmap.md](docs/05-roadmap.md) | Milestones and horizons: lithography gates, first transistor, micro-cell, sustained replication |
 | [docs/06-cmos-transition.md](docs/06-cmos-transition.md) | Why PMOS alone cannot run a cube, and the route to a single-well Al-gate CMOS inverter |
 
 ## The short version

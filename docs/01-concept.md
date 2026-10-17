@@ -290,4 +290,3 @@ tolerance.
 - how a cube is physically made → [02-cube-from-wafer.md](02-cube-from-wafer.md)
 - why copies stay good → [03-generational-stability.md](03-generational-stability.md)
 - what to build first → [04-diy-lithography-path.md](04-diy-lithography-path.md)
-- when → [05-roadmap.md](05-roadmap.md)

@@ -243,5 +243,4 @@ controller instead of a curiosity.
 
 - the PMOS phase this follows → [04-diy-lithography-path.md](04-diy-lithography-path.md) §7
 - why the copies stay good as processes get denser → [03-generational-stability.md](03-generational-stability.md)
-- where CMOS sits in time → [05-roadmap.md](05-roadmap.md)
 - what a face must fit physically → [01-concept.md](01-concept.md) §9
