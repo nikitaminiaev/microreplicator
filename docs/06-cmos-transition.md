@@ -209,10 +209,23 @@ deferred:
 | Self-aligned S/D | no: gate overlaps S/D, more parasitic capacitance | yes, better matching and density |
 | Gate etch | PAN or lift-off (already working) | plasma (SF₆ RIE) or a wet poly etch — a new module |
 | Gate doping | not required | shared n⁺ gate (shifts the PMOS threshold) or split n⁺/p⁺ gates (+1–2 masks) |
-| Purchased Si/SiO₂/polySi stacks | not needed | incompatible with a well diffusion: the stack blocks it — which is exactly why open-source projects moved off the purchased stack to a sputtered one |
+| Gate film deposition | thermal SiO₂ grown + Al evaporated — both already in-house | in-house, **mid-flow, onto the processed wafer** (windows already etched): LPCVD SiH₄ (pyrophoric gas cabinet) or sputter a-Si + SPC ~600 °C |
+| Purchased Si/SiO₂/polySi stacks | not needed | **unusable**: the stack is fixed at step 0, before the well exists; the project that relied on those wafers states plainly that this "prevents the expansion of the NMOS process into a CMOS process" — they built an in-house sputtered gate stack instead |
 
-Purchasing a poly stack makes sense only for an NMOS-only flow or for a dedicated
-poly branch. The Al-gate route is the one that reuses what the PMOS phase already proved.
+The decisive point is the **order of operations**. A well-based CMOS needs the well
+diffused, the field oxide opened and the gate oxide grown *before* the gate material
+lands — so the gate stack is deposited **mid-flow, onto a wafer whose windows are already
+etched**. A wafer that arrives with its gate stack pre-fabricated cannot support that:
+the well drive-in would dope and recrystallise the film, and there is no way to open
+field-oxide windows through a blanket stack. Purchased Si/SiO₂/polySi wafers therefore
+cap you at an NMOS-only flow — enough to replicate a proven 5 µm NMOS process, not enough
+to move to CMOS. The Al-gate route in this document sidesteps the question entirely: its
+gate oxide is grown and its gate metal is evaporated, both operations already qualified in
+the PMOS phase.
+
+The poly route, when it arrives, is thus a **deposition capability** rather than a
+purchasing decision. That is the real content of the horizon: either LPCVD inside a gas
+cabinet built for silane, or a sputtering chamber plus a 600 °C crystallisation anneal.
 
 ## 11. What CMOS unlocks
 
