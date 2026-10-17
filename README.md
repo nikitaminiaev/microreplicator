@@ -15,10 +15,14 @@ deposition and etch step happens on a plane — the geometry only becomes 3D at 
 
 ![Target cube: wafer-level net, assembled cube, MEMS diaphragm, cube chain, joint detail](assets/target-cube.png)
 
-*Vision artefact. Panel 1: the six-face net on a silicon wafer, 1 cm across. Panel 2: a
-100 µm fragment of the circuitry. Panel 3: the folded cube, 1 mm edge. Panel 4: MEMS
-diaphragm gate on a cube face. Panels 5–6: cubes joined into a chain and the solder
-joint with its edge-contact bus.*
+*AI-generated concept illustration, not an engineering drawing: proportions, surface
+detail and part shapes are approximate, and no dimension in it should be trusted as
+specified. It shows what the target cube is meant to look like. Panel 1: the six-face net
+on a silicon wafer, 1 cm across. Panel 2: a 100 µm fragment of the circuitry. Panel 3:
+the folded cube, 1 mm edge. Panel 4: MEMS diaphragm gate on a cube face. Panels 5–6:
+cubes joined into a chain and the solder joint with its edge-contact bus. The engineering
+requirements behind the picture are in [docs/01-concept.md](docs/01-concept.md) and
+[docs/02-cube-from-wafer.md](docs/02-cube-from-wafer.md).*
 
 ## Documents
 

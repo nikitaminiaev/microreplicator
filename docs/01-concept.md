@@ -123,8 +123,9 @@ order of magnitude**, which is why the 0.1–1 µm Kelvin pins are more than suf
 Secondary wins: no wear (contactless, unlike rubbing pads) and galvanic isolation. Cost:
 transceivers on the optical faces plus a few milliwatts of TX power per link.
 
-Crosstalk is handled by recessed optical wells (the window on the vision figure is
-standard) plus time slots or distinct carriers on adjacent links.
+Crosstalk is handled by recessed optical wells (the window on the vision figure — an
+AI-generated concept illustration, approximate by nature — is standard) plus time slots
+or distinct carriers on adjacent links.
 
 ### Drive face
 
