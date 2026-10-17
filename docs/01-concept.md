@@ -140,17 +140,33 @@ Locomotion is piezo-based at the start, on a dedicated drive face.
 - Material: **ZnO** (piezo d33 ~12 pm/V) is already ours — the same material as a light
   emitter. One material, two functions: legs and light. Alternative: AlN (CMOS-clean,
   sputterable). PZT is avoided for now (lead, process temperature).
-- Long range is the matrix: rails, coils, a carrier cart. On-board drive is for local
+- Long range is the matrix (§4): rails, coils, a carrier cart. On-board drive is for local
   moves only; a cube sits in a dock 99% of the time.
 
 ## 4. Cell, tissue, organ, factory
 
 ```
 Cell    (1 mm cube)   base building block
-Tissue  (shell)       a row of cells of one functional class
+Tissue  (volume)      cells of one functional class, held by the matrix
 Organ   (cluster)     a working unit: furnace, CZ puller, lithographer
 Factory (organism)    organs + logistics, closed loop
 ```
+
+**The tissue is volumetric, and the matrix holds it.** Cubes are not spread in a flat
+lawn of parts: they sit in a three-dimensional **matrix**, the engineered analogue of the
+extracellular matrix of living tissue. The matrix is an organ in its own right — the layer
+that deliberately does not miniaturize away — and it does the housekeeping that no single
+1 mm cube can do:
+
+- **mechanics** — it holds cells in a fixed 3D arrangement; a cell docks into a slot and
+  is released on command (the chassis-plus-insert cell of §1 is its unit);
+- **power, data, transport** — long-range power and the bus ride in the matrix (§3:
+  rails, coils, a carrier cart); a free slot holds nothing but a landing pad;
+- **service, an immune loop** — telemetry spots a dead cell, a service cell drives along
+  the matrix, undocks it and installs a spare. That is what keeps every cube replaceable
+  without dismantling the tissue;
+- **addressing** — the slot says where a cell is (address from the matrix), while the cell
+  keeps its own identity.
 
 An organ is a recipe, not a piece of hardware. Any organ = a set of cells plus their
 configuration. A cell's purpose is defined by the organ recipe, not by the cell itself —

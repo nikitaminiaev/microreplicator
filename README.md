@@ -3,10 +3,12 @@
 A modular micro-fab that builds copies of itself.
 
 The target artefact is a hollow cube of about **1 mm** per side. Each cube carries one
-function on its faces — logic, memory, sensors, power, a MEMS valve. Cubes snap into
-chains and stacks, and a colony of cubes runs the process steps that produce the next
-generation of cubes. There is no single master node: the colony is flat, like a
-bacterial lawn, and every cube is replaceable.
+function on its faces — logic, memory, sensors, power, a MEMS valve. Cubes dock into
+chains and stacks, and the colony is not a flat lawn of parts but a **volumetric tissue**
+held together by an engineered **matrix** — the analogue of the extracellular matrix of
+living tissue. The matrix carries power and data over long ranges, moves cells between
+slots, and lets a failed cube undock and a spare take its place. There is no single
+master node, and every cube is replaceable.
 
 The manufacturing idea that makes this reachable with DIY equipment is the **unfold**:
 all six faces of the cube are patterned flat on one silicon wafer, the contour is cut
@@ -28,7 +30,7 @@ requirements behind the picture are in [docs/01-concept.md](docs/01-concept.md) 
 
 | Document | What it covers |
 |---|---|
-| [docs/01-concept.md](docs/01-concept.md) | Operating principles: cube as the base module, seed and vitamins, face roles, inter-cube bus, flat probe test |
+| [docs/01-concept.md](docs/01-concept.md) | Operating principles: cube as the base module, tissue and matrix, seed and vitamins, face roles, inter-cube bus, flat probe test |
 | [docs/02-cube-from-wafer.md](docs/02-cube-from-wafer.md) | How a cube is made: 2D net on a wafer, through-cut, self-folding, solder seams, generation 1 vs 2 |
 | [docs/03-generational-stability.md](docs/03-generational-stability.md) | Why copies do not degrade: optical demagnification, bad-mirror maps, closed-loop overlay, and the limits that remain |
 | [docs/04-diy-lithography-path.md](docs/04-diy-lithography-path.md) | The DIY lithography rig and the staged path from a bare DMD projector to PMOS and MEMS |
