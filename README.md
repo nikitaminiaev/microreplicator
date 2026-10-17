@@ -53,15 +53,13 @@ requirements behind the picture are in [docs/01-concept.md](docs/01-concept.md) 
 
 The engineering position is deliberately conservative: the 2–5 µm process is a
 *qualified* target at fixed equipment, not a promise. Everything below 1–2 µm is a
-separate branch with new optics, and the file records where those walls are.
+separate branch with new optics, and those walls are mapped in
+[docs/03-generational-stability.md](docs/03-generational-stability.md) §6.
 
 ## Status
 
-Concept and process design. The work behind these documents exists as a large body of
-Russian-language engineering notes (photolithography bench design and CAD, MEMS process
-levels, PMOS route, supply lists, safety review). This repository is the English-facing
-summary: what the machine is, how it is made, why the copies stay good, and what a
-person can actually start building this month.
+Concept and process design. The material covers what the machine is, how it is made, why
+the copies stay good, and what a person can actually start building this month.
 
 ## License
 
