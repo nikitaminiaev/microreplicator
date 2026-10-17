@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# CAD / CAM scratch
+*.step
+*.stl
+*.dxf
+
+# OS / editors
+.DS_Store
+Thumbs.db
+*~
+*.swp
+.idea/
+.vscode/
