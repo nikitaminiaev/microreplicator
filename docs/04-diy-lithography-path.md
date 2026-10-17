@@ -192,6 +192,10 @@ a test board $5.
 
 **Acceptance criterion:** working I-V switching — gate voltage changes channel current.
 
+The next step after PMOS is not more PMOS. It is **CMOS**, because a single-channel
+process cannot supply the logic a cube needs: see
+[06-cmos-transition.md](06-cmos-transition.md).
+
 ### What the bench can and cannot do today
 
 | Operation | Status |

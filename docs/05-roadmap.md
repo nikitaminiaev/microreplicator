@@ -58,6 +58,7 @@ reproducible PMOS and the ability to make the first components of future micro m
 | Period | Step |
 |---|---|
 | 2027 | PMOS + PDK + nightly automated runs |
+| 2027–2028 | **CMOS transition (phase 2)** — well mask, second dopant, acid line; first inverter, then gates and latches ([06-cmos-transition.md](06-cmos-transition.md)) |
 | 2027–2028 | MEMS modules on purchased wafers (micro furnace, micro pump, micro actuator, micro needles) — replacing macro functions one at a time |
 | 2028–2030 | first micro module with external tanks and pump; compared against its macro analogue |
 | 2030–2033 | prototype micro-cube: e-beam in ~1 mm³ (vacuum cell, 1–10 kV, cathode) — separate R&D; the first cube requires hybrid assembly |

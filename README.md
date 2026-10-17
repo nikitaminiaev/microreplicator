@@ -33,6 +33,7 @@ requirements behind the picture are in [docs/01-concept.md](docs/01-concept.md) 
 | [docs/03-generational-stability.md](docs/03-generational-stability.md) | Why copies do not degrade: optical demagnification, bad-mirror maps, closed-loop overlay, and the limits that remain |
 | [docs/04-diy-lithography-path.md](docs/04-diy-lithography-path.md) | The DIY lithography rig and the staged path from a bare DMD projector to PMOS and MEMS |
 | [docs/05-roadmap.md](docs/05-roadmap.md) | Milestones and horizons: lithography gates, first transistor, micro-cell, sustained replication |
+| [docs/06-cmos-transition.md](docs/06-cmos-transition.md) | Why PMOS alone cannot run a cube, and the route to a single-well Al-gate CMOS inverter |
 
 ## The short version
 
@@ -50,6 +51,10 @@ requirements behind the picture are in [docs/01-concept.md](docs/01-concept.md) 
    hinges and solder. No furnace, no transistors.
 5. **Fill them later.** Generation 2 puts PMOS logic and MEMS on the inner faces of the
    net, probes the net flat, then folds and seals it.
+6. **Then move to CMOS, because PMOS alone cannot run a cube.** Ratioed logic burns static
+   current on a face with no heatsink, gives no full output swing and no memory. CMOS
+   costs one more mask (the well), one more dopant (phosphorus) and a chemistry lab with
+   HF/BOE — see [docs/06-cmos-transition.md](docs/06-cmos-transition.md).
 
 The engineering position is deliberately conservative: the 2–5 µm process is a
 *qualified* target at fixed equipment, not a promise. Everything below 1–2 µm is a
@@ -60,6 +65,20 @@ separate branch with new optics, and those walls are mapped in
 
 Concept and process design. The material covers what the machine is, how it is made, why
 the copies stay good, and what a person can actually start building this month.
+
+## Safety
+
+This is engineering documentation for laboratory work that can injure or kill: UV
+exposure, hot acids and bases (TMAH, NaOH, HF and BOE where noted), solvents, a 1100 °C
+furnace, vacuum, and high voltage. Nothing here has been validated by a qualified safety
+engineer, and none of it replaces hands-on laboratory training.
+
+**Responsibility for safety rests with whoever performs or adapts these processes.** That
+means: reading the SDS for every chemical before touching it, building the controls
+first (ventilation, lid interlocks, UV glasses, PPE, spill kit, HF antidote where
+applicable), working within your legal limits, and stopping when a step is beyond your
+equipment or experience. The listed exclusions (HF surface release, piranha, gaseous
+diffusion, toxic-gas CVD) are engineering decisions, not a complete hazard list.
 
 ## License
 
