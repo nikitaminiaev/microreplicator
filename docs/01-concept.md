@@ -27,6 +27,22 @@ Outward-facing side: a hard protective skin plus standard connectors on all six 
 Inside: chips, electronics, payload. The exception is hot organs, where the electronics
 must live outside the insulation (see §4).
 
+### Why the cube is universal — and why one cube is not a replicator
+
+The cube is universal for three reasons, and none of them is functional: one process
+(every cube and every insert comes out of the same flat net and the same lithography
+envelope), one interface (six standard faces, edge-pad bus, kinematic docking), one
+differentiation axis (the insert, or, more generally, the organ recipe). A few chassis
+types times a library of inserts cover the whole organ space, and because cells are
+identical and binned, the same part can be swapped, re-tasked or moved to another organ.
+
+That combinatorics is not self-sufficiency. A single cube carries one function on its
+faces; it cannot pattern a wafer, grow an oxide or cut a net — it cannot make another
+cube. Replication is a property of the colony, not of a cube: it appears when many cubes
+form organs — the lithography organ first of all, plus the furnace, the wet bench, the
+assembly line and the matrix logistics (§4). One cube is a part; a cluster of cubes
+around a lithography organ is a factory (§6).
+
 ## 2. Six faces, seven roles
 
 Functional specialization of faces — design decision: spread functions across faces
@@ -203,6 +219,30 @@ channel).
 Hard rule: **a soldered joint is not repaired.** A failed cell inside a soldered assembly
 (hot / vacuum organ) condemns the whole organ — which is why the organ is designed as a
 replaceable unit. Only cold, reversible structures are designed to be serviceable.
+
+### The replication cycle
+
+Each arrow is an organ, and no arrow fits inside a cube:
+
+```
+feedstock (silica, water, dopants, aluminium, polymer)
+     ↓  crystal organ (CZ puller, hot)
+ingot → wafer (slicing, lapping, polishing)
+     ↓  lithography organ (405 nm LED, DMD, reduction optics) + furnace + wet bench
+patterned net on a wafer
+     ↓  etch + fold + solder + flat probe
+cube
+     ↓  assembly organ, matrix logistics
+cube docked into the colony
+     ↓  test, service loop
+replaced or returned to service
+```
+
+The loop closes only at colony scale. Every stage needs macroscopically large, flat
+equipment — optics above all — so the minimum replicating unit is a cluster of cubes
+around a lithography organ, not a cube. This is why the cube is the last stage of the
+program ([02-cube-from-wafer.md](02-cube-from-wafer.md) §6) and why one cube, alone,
+can only be a part.
 
 ## 5. Bootstrapping: seed and vitamins
 

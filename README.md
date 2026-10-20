@@ -8,7 +8,9 @@ chains and stacks, and the colony is not a flat lawn of parts but a **volumetric
 held together by an engineered **matrix** — the analogue of the extracellular matrix of
 living tissue. The matrix carries power and data over long ranges, moves cells between
 slots, and lets a failed cube undock and a spare take its place. There is no single
-master node, and every cube is replaceable.
+master node, and every cube is replaceable. Replication is a property of the colony, not
+of a cube: a single cube is a part, and the loop closes only when many cubes form organs
+— the lithography organ above all.
 
 The manufacturing idea that makes this reachable with DIY equipment is the **unfold**:
 all six faces of the cube are patterned flat on one silicon wafer, the contour is cut
